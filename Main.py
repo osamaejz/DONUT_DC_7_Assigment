@@ -58,7 +58,7 @@ test_loss, test_accuracy = model.evaluate(X_test_reshaped, y_test)
 print(f"Test Accuracy: {test_accuracy * 100:.2f}%")
 
 #Saving Trained Model
-model.save('Models/EEG only/Model_4_without_EOG_Correction.h5')
+model.save('Models/EEG corrected/Model_4_with_EOG_Correction.h5')
 
 
 
